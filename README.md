@@ -136,14 +136,14 @@ See [LICENSE][license-url].
 
 Copyright &copy; 2022. Kossi D. T. Saka.
 
-[npm-image-version]: https://img.shields.io/npm/v/readable-http-status-code.svg
-[npm-image-downloads]: https://img.shields.io/npm/dm/readable-http-status-code.svg?color=purple
-[npm-url]: https://npmjs.org/package/readable-http-status-code
-[license-image]: https://img.shields.io/github/license/kossidts/readable-http-status-code
-[license-url]: https://github.com/kossidts/readable-http-status-code/blob/master/LICENSE
-[language-image]: https://img.shields.io/github/languages/top/kossidts/readable-http-status-code?color=yellow
-[size-image]: https://img.shields.io/github/repo-size/kossidts/readable-http-status-code?color=light
-[commit-image]: https://img.shields.io/github/last-commit/kossidts/readable-http-status-code
-[actions-url]: https://github.com/kossidts/readable-http-status-code/actions
-[workflow-image]: https://github.com/kossidts/readable-http-status-code/actions/workflows/node.js.yml/badge.svg
-[workflow-image-2]: https://github.com/kossidts/readable-http-status-code/workflows/Node.js%20CI/badge.svg
+[npm-image-version]: https://img.shields.io/npm/v/readable-http-status-codes.svg
+[npm-image-downloads]: https://img.shields.io/npm/dm/readable-http-status-codes.svg?color=purple
+[npm-url]: https://npmjs.org/package/readable-http-status-codes
+[license-image]: https://img.shields.io/github/license/kossidts/readable-http-status-codes
+[license-url]: https://github.com/kossidts/readable-http-status-codes/blob/master/LICENSE
+[language-image]: https://img.shields.io/github/languages/top/kossidts/readable-http-status-codes?color=yellow
+[size-image]: https://img.shields.io/github/repo-size/kossidts/readable-http-status-codes?color=light
+[commit-image]: https://img.shields.io/github/last-commit/kossidts/readable-http-status-codes
+[actions-url]: https://github.com/kossidts/readable-http-status-codes/actions
+[workflow-image]: https://github.com/kossidts/readable-http-status-codes/actions/workflows/node.js.yml/badge.svg
+[workflow-image-2]: https://github.com/kossidts/readable-http-status-codes/workflows/Node.js%20CI/badge.svg
