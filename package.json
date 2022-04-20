@@ -1,0 +1,32 @@
+{
+    "name": "readable-http-status-codes",
+    "version": "1.0.0",
+    "description": "By writing readable http status codes your code becomes even more readable and easier to understand.",
+    "main": "index.js",
+    "exports": {
+        "import": "./wrapper.mjs",
+        "require": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kossidts/readable-http-status-codes.git"
+    },
+    "homepage": "https://github.com/kossidts/readable-http-status-codes#readme",
+    "bugs": {
+        "url": "https://github.com/kossidts/readable-http-status-codes/issues"
+    },
+    "keywords": [
+        "https",
+        "http",
+        "status",
+        "codes",
+        "readable",
+        "http codes",
+        "http status",
+        "http status codes",
+        "readable http status codes"
+    ],
+    "type": "commonjs",
+    "author": "Kossi D. T. Saka",
+    "license": "MIT"
+}
