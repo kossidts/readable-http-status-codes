@@ -8,11 +8,25 @@ By writing readable http status codes your code becomes even more readable and e
 
 This package provides you the full list ([see below](#list-of-all-keys)) of all http status codes available on the nodejs core module **http**. So you can write
 
-`PAYMENT_REQUIRED` instead of 402
+`PAYMENT_REQUIRED` or `PAYMENT_REQUIRED_CODE` instead of 402
 
-`UPGRADE_REQUIRED` instead of 426
+`UPGRADE_REQUIRED` or `UPGRADE_REQUIRED_CODE` instead of 426
 
-`NOT_IMPLEMENTED` instead of 501
+`NOT_IMPLEMENTED` or `NOT_IMPLEMENTED_CODE` instead of 501
+
+`IM_A_TEAPOT` or `IM_A_TEAPOT_CODE` instead of 418
+
+...
+
+And to retrieve the status messages use
+
+`PAYMENT_REQUIRED_TEXT` to return `Payment Required`
+
+`UPGRADE_REQUIRED_TEXT` to return `Upgrade Required`
+
+`NOT_IMPLEMENTED_TEXT` to return `Not Implemented`
+
+`IM_A_TEAPOT_TEXT` to return `I'm a Teapot`
 
 ...
 
