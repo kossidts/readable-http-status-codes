@@ -7,6 +7,10 @@
         "import": "./wrapper.mjs",
         "require": "./index.js"
     },
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "test": "node --trace-uncaught --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/kossidts/readable-http-status-codes.git"
@@ -28,5 +32,15 @@
     ],
     "type": "commonjs",
     "author": "Kossi D. T. Saka",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.3.1"
+    },
+    "jest": {
+        "testMatch": [
+            "**/test/**/*.test.js"
+        ],
+        "verbose": true,
+        "transform": {}
+    }
 }
