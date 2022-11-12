@@ -1,6 +1,6 @@
 {
     "name": "readable-http-status-codes",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "By writing readable http status codes your code becomes even more readable and easier to understand.",
     "main": "index.js",
     "exports": {
