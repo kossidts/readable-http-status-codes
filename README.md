@@ -30,7 +30,7 @@ And to retrieve the status messages use
 
 ...
 
-Intellisense support added - tested in VS Code editor.
+Intellisense support included (tested in VS Code editor) so you code faster.
 ![Intellisense support](http-status-code-intellisense.png)
 
 ## Installation
