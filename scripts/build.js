@@ -12,27 +12,27 @@ for (let [code, message] of Object.entries(http.STATUS_CODES)) {
 
     content += `
         /** 
-         * Integer: ${code}
+         * ${code}
          */
         ${key}: ${code},
         /** 
-         * Integer: ${code}
+         * ${code}
          */
         ${key}_CODE: ${code}, 
         /** 
-         * String: ${message}
+         * ${message}
          */
         ${key}_TEXT: "${message}",
         /** 
-         * Integer: ${code}
+         * ${code}
          */
         ${key}_${code}: ${code},
         /** 
-         * Integer: ${code}
+         * ${code}
          */
         ${key}_${code}_CODE: ${code},
         /** 
-         * String: ${message}
+         * ${message}
          */
         ${key}_${code}_TEXT: "${message}",
     `;
