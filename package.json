@@ -42,5 +42,10 @@
         ],
         "verbose": true,
         "transform": {}
-    }
+    },
+    "files": [
+        "index.js",
+        "wrapper.mjs",
+        "http-status-code-intellisense.png"
+    ]
 }
