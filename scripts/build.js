@@ -36,6 +36,14 @@ for (let [code, message] of Object.entries(http.STATUS_CODES)) {
          */
         ${key}_${code}_TEXT: "${message}",
     `;
+
+    // Generate table for the readme on the console
+    // console.log(`|${key} | ${code}|`);
+    // console.log(`|${key}_CODE | ${code}|`);
+    // console.log(`|${key}_TEXT | ${message}|`);
+    // console.log(`|${key}_${code}| ${code}|`);
+    // console.log(`|${key}_${code}_CODE| ${code}|`);
+    // console.log(`|${key}_${code}_TEXT| ${message}|`);
 }
 
 content = `
